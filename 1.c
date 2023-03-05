@@ -1,3 +1,6 @@
+// Task : WAP that accepts the marks of 5 subjects and finds the sum and percentage marks 
+obtained
+
 #include <stdio.h>
 
 int main() {
