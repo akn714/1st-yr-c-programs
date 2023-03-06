@@ -1,4 +1,4 @@
-// Task : WAP to find the minimum and maximum element of the array
+// Task : WAP to search an element in an array using Linear Search
 
 #include <stdio.h>
 #include <stdbool.h>
