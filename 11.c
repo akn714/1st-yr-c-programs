@@ -1,4 +1,5 @@
 // Task : WAP that takes two operands and one operator from the user, perform the operation, and prints the result by using Switch statement
+
 #include <stdio.h>
 
 int main() {
