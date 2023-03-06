@@ -1,4 +1,4 @@
-// Task : WAP  to find the factorial of a given number
+// Task : WAP to find the factorial of a given number
 
 #include <stdio.h>
 
