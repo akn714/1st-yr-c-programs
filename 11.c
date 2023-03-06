@@ -5,8 +5,12 @@
 int main() {
     int n, m;
     char optr;
+
+    // inputting 2 numbers and and operator
     scanf("%d %c %d", &n, &optr, &m);
     
+
+    // performing operation on the bases or operator (optr)
     switch(optr){
         case '+':
             printf("%d %c %d = %d\n", n, optr, m, n+m);
