@@ -5,11 +5,10 @@
 int main() {
     float c, f;
     int opt;
-    printf("1 : centigrade to fahrenheit\n2 : fahrenheit to centigrade\n");
+    printf("1 : centigrade to fahrenheit\n2 : fahrenheit to centigrade\nchoose an option [1/2] : ");
     
     // invalidOpt is a label
     invalidOpt:
-        printf("choose an option [1/2] : ");
         scanf("%d", &opt);
     
     switch(opt){
@@ -27,6 +26,7 @@ int main() {
             break;
         default:
             // taking the input again if the option (opt) is invalid
+            printf("please choose a valid option : ");
             goto invalidOpt;
     }
 
