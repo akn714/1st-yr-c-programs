@@ -1,3 +1,5 @@
+// Task : Define a structure data type TRAIN_INFO
+
 #include <stdio.h>
 #include <string.h>
 
@@ -6,11 +8,11 @@ typedef struct
     int trainNum;
     char trainName[100];
     char endStation[100];
-} Train;
+} TRAIN_INFO;
 
 int main(){
     
-    Train t1;
+    TRAIN_INFO t1;
 
     t1.trainNum = 12345;
     strcpy(t1.trainName, "rajdhani express");
